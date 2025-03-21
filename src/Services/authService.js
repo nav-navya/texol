@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const apiURL = "http://localhost:5003/api/auth"
+const apiURL = "https://texol-server-700k.onrender.com/api/auth"
 
 
 export const registerUser = async (userData) =>{
